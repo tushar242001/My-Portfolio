@@ -5,6 +5,7 @@ body {
     color: #666666;
     background: #F6D155;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 a {
@@ -314,8 +315,14 @@ a:focus {
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(../img/profile.png) right bottom no-repeat;
-    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .content-inner img{
+    padding: 10px 10px;
+    width: 25vw;
+    height: 20vw;
 }
 
 .header p {
@@ -858,7 +865,7 @@ a:focus {
 
 .review .review-text p {
     font-size: 18px;
-    font-style: italic;
+    
 }
 
 .review .review-img {
