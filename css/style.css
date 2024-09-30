@@ -46,7 +46,7 @@ a:focus {
 .wrapper .content {
     position: relative;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     float: left;
     background:black;
 }
@@ -129,7 +129,7 @@ a:focus {
         position: fixed;
         width: 300px;
         height: 100%;
-        margin-left: -250px;
+        margin-left: -20px;
         float: left;
         overflow: auto;
         scrollbar-width: thin;
@@ -144,7 +144,7 @@ a:focus {
     .wrapper .content {
         position: relative;
         width: calc(100% - 50px);
-        margin-left: 50px;
+        margin-left: 15px;
         float: right;
     }
     
@@ -169,7 +169,7 @@ a:focus {
     }
     
     .wrapper .sidebar:hover .navbar-expand-md .navbar-nav .nav-link {
-        padding: 5px 30px 7px 30px;
+        padding: 5px 3px 7px 3px;
     }
     
     .wrapper .sidebar::-webkit-scrollbar {
